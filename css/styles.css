@@ -114,6 +114,11 @@ header {
     margin-top: 10px;
 }
 
+.header button:hover {
+    background-color: black;
+    color: coral;
+}
+
 .middle {
     display: flex;
     flex-direction: column;
@@ -161,6 +166,90 @@ header {
     color:black;
     padding: 10px;
     text-align: center;
+}
+
+
+
+.bottom {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+    
+}
+.italic {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    width: 70%;
+    padding: 10px;
+    text-align: left;
+}
+
+.bold {
+    font-weight: 700;
+    width: 70%;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+.blue {
+    height: 120px;
+    width: 70%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.last-button {
+    background-color: #2882F6;
+    border: 1px solid #fff ;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10%;
+    font-weight: 700;
+}
+
+.last-button:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: coral;
+}
+
+.footer-container {
+    height:70px;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
